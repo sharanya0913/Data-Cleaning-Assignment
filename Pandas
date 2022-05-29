@@ -34,7 +34,7 @@ df
 
 #5
 import pandas as pd
-df1 = pd.DataFrame(df['RecentDelays'].to_list(), columns = ['delay_1', 'cdelay_2', 'cdelay_3'])
+df1 = pd.DataFrame(df['RecentDelays'].to_list(), columns = ['delay_1', 'delay_2', 'delay_3'])
 df1
 df = pd.concat([df, df1], axis=1)
 df
